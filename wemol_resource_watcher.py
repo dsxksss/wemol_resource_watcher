@@ -117,7 +117,7 @@ class WemolResourceRecorder:
                                     "job_id": job_id,
                                 }
                             )
-                        elif container_name.startswith("wemol_rc_task_all"):
+                        elif container_name.startswith("wemol_rc_task"):
                             task_id = container_name.split("_")[3]
                             job_id = container_name.split("_")[4]
 
